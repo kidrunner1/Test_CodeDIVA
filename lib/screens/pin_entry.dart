@@ -14,7 +14,7 @@ class _PinEntryScreenState extends State<PinEntryScreen> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance?.addPostFrameCallback((_) => _showDialog());
+    WidgetsBinding.instance.addPostFrameCallback((_) => _showDialog());
   }
 
   void _showDialog() {
